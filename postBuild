@@ -1,6 +1,6 @@
 set -ex
 
-#git clone https://github.com/openPMD/openPMD-example-datasets
+git clone https://github.com/openPMD/openPMD-example-datasets
 cd openPMD-example-datasets
 tar -zxvf example-2d.tar.gz
 tar -zxvf example-3d.tar.gz
