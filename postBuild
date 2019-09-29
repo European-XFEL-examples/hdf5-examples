@@ -1,0 +1,15 @@
+set -ex
+
+#git clone https://github.com/openPMD/openPMD-example-datasets
+cd openPMD-example-datasets
+tar -zxvf example-2d.tar.gz
+tar -zxvf example-3d.tar.gz
+tar -zxvf example-thetaMode.tar.gz
+
+cd ..
+
+mkdir examples
+
+mv ./openPMD-example-datasets/example-2d/hdf5 ./examples/2d
+mv ./openPMD-example-datasets/example-3d/hdf5 ./examples/3d
+mv ./openPMD-example-datasets/example-thetaMode/hdf5 ./examples/thetaMode
