@@ -2,7 +2,7 @@
 
 import karabo_data
 
-run_path = "/gpfs/exfel/exp/SPB/201701/p002012/raw/r0244"
+run_path = '/gpfs/exfel/exp/SPB/201701/p002012/proc/r0243'
 
 run = karabo_data.RunDirectory(run_path)
 
