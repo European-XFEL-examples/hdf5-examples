@@ -1,5 +1,6 @@
-numpy==1.17.2
-pandas==0.25.
+awscli==1.16.250
 h5py==2.10.0
 h5glance==0.6
-matplotlib
+matplotlib==3.1.1
+numpy==1.17.2
+pandas==0.25.0

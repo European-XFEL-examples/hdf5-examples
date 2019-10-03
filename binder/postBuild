@@ -15,3 +15,7 @@ mv ./openPMD-example-datasets/example-3d/hdf5 ./examples/3d
 mv ./openPMD-example-datasets/example-thetaMode/hdf5 ./examples/thetaMode
 
 rm -rf ./openPMD-example-datasets
+
+cd ./examples/
+mkdir euxfel
+wget https://s3.eu-central-1.wasabisys.com/panosc/data-subset.h5
