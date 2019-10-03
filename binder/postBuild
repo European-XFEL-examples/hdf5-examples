@@ -18,4 +18,5 @@ rm -rf ./openPMD-example-datasets
 
 cd ./examples/
 mkdir euxfel
+cd ./euxfel/
 wget https://s3.eu-central-1.wasabisys.com/panosc/data-subset.h5
