@@ -29,9 +29,8 @@ To set up and run this locally, first install conda and activate it, then:
 ```
 git clone https://github.com/European-XFEL-examples/hdf5-examples
 cd hdf5-examples
-conda env update -n ENVIRONMENT_NAME -f ./binder/environment.yml
-sh ./binder/postBuild
 pip install -r requirements.txt
+sh ./binder/postBuild
 ```
 
 Now either install and run jupyter from inside the conda environment,
