@@ -29,7 +29,7 @@ To set up and run this locally, first install conda and activate it, then:
 ```
 git clone https://github.com/European-XFEL-examples/hdf5-examples
 cd hdf5-examples
-pip install -r requirements.txt
+pip install -r ./binder/requirements.txt
 sh ./binder/postBuild
 ```
 
